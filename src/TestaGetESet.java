@@ -2,8 +2,8 @@
 public class TestaGetESet {
 	
 	public static void main(String[] args) {
-		Conta conta = new Conta();
-		conta.setNumero(3377);
+		Conta conta = new Conta(3377, 24227);
+		
 		System.out.println(conta.getNumero());
 	
 	Cliente diego = new Cliente();
